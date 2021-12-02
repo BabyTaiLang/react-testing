@@ -21,6 +21,9 @@ const Register = () => {
             alert('success')
             history.push('/')
         })
+        .catch(() => {
+            alert('failed')
+        })
     }
 
     return (

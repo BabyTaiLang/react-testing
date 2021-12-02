@@ -14,6 +14,9 @@ const Login = () => {
         .then(() => {
             alert('success')
         })
+        .catch(() => {
+            alert('failed')
+        })
     }
 
     return (
