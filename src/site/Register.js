@@ -21,7 +21,7 @@ const Register = () => {
             alert('success')
             history.push('/')
         })
-        .catch(() => {
+        .catch((err) => {
             alert('failed')
         })
     }
